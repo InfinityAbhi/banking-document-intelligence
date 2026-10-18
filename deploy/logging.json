@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "disable_existing_loggers": false,
+  "formatters": {"plain": {"format": "%(message)s"}},
+  "handlers": {"console": {"class": "logging.StreamHandler", "formatter": "plain", "stream": "ext://sys.stdout"}},
+  "loggers": {"bankdocs.requests": {"level": "INFO", "handlers": ["console"], "propagate": false}},
+  "root": {"level": "WARNING", "handlers": ["console"]}
+}

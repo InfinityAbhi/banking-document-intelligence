@@ -1,0 +1,26 @@
+{
+  "family": "banking-document-workbench",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "512",
+  "memory": "1024",
+  "executionRoleArn": "arn:aws:iam::111122223333:role/REPLACE_EXECUTION_ROLE",
+  "taskRoleArn": "arn:aws:iam::111122223333:role/REPLACE_TASK_ROLE",
+  "runtimePlatform": {"operatingSystemFamily": "LINUX", "cpuArchitecture": "X86_64"},
+  "containerDefinitions": [{
+    "name": "bankdocs",
+    "image": "111122223333.dkr.ecr.us-east-1.amazonaws.com/REPLACE_IMAGE:REPLACE_DIGEST_TAG",
+    "essential": true,
+    "user": "10001",
+    "readonlyRootFilesystem": true,
+    "portMappings": [{"containerPort": 8000, "protocol": "tcp"}],
+    "environment": [{"name":"BANKDOCS_MODE","value":"local"},{"name":"BANKDOCS_DB","value":"/tmp/bankdocs.sqlite"},{"name":"AWS_REGION","value":"us-east-1"}],
+    "secrets": [{"name":"BANKDOCS_API_KEY","valueFrom":"arn:aws:secretsmanager:us-east-1:111122223333:secret:REPLACE_API_KEY"}],
+    "mountPoints": [{"sourceVolume":"scratch","containerPath":"/tmp","readOnly":false}],
+    "healthCheck": {"command":["CMD-SHELL","python -c \"import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health',timeout=3)\""],"interval":30,"timeout":5,"retries":3,"startPeriod":30},
+    "logConfiguration": {"logDriver":"awslogs","options":{"awslogs-group":"/ecs/bankdocs","awslogs-region":"us-east-1","awslogs-stream-prefix":"service"}},
+    "linuxParameters": {"initProcessEnabled":true,"capabilities":{"drop":["ALL"]}}
+  }],
+  "volumes": [{"name":"scratch"}],
+  "tags": [{"key":"Scope","value":"synthetic-portfolio-prototype"}]
+}

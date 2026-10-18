@@ -1,0 +1,542 @@
+{
+  "synthetic": true,
+  "font": "Arial.ttf",
+  "documents": [
+    {
+      "id": "loan-001-q1",
+      "title": "Loan review ACCT-001 2026-Q1",
+      "file": "loan-001-q1.png",
+      "fields": {
+        "account_id": "ACCT-001",
+        "period": "2026-Q1",
+        "currency": "USD",
+        "principal": "261250.00"
+      },
+      "sha256": "8d5ea9d70c0531ac2a8bf74f561b3c0db8403971fdb5af6611c57c03742114ec"
+    },
+    {
+      "id": "loan-001-q2",
+      "title": "Loan review ACCT-001 2026-Q2",
+      "file": "loan-001-q2.png",
+      "fields": {
+        "account_id": "ACCT-001",
+        "period": "2026-Q2",
+        "currency": "USD",
+        "principal": "258750.00"
+      },
+      "sha256": "511b368105068a4e404435a224e596b353b357bc274f3af8f1630d4427c9a604"
+    },
+    {
+      "id": "loan-002-q1",
+      "title": "Loan review ACCT-002 2026-Q1",
+      "file": "loan-002-q1.png",
+      "fields": {
+        "account_id": "ACCT-002",
+        "period": "2026-Q1",
+        "currency": "USD",
+        "principal": "275000.00"
+      },
+      "sha256": "8a927bae591028062e33061da8beb1d79bd6086bc37340d4050a50964cc03176"
+    },
+    {
+      "id": "loan-002-q2",
+      "title": "Loan review ACCT-002 2026-Q2",
+      "file": "loan-002-q2.png",
+      "fields": {
+        "account_id": "ACCT-002",
+        "period": "2026-Q2",
+        "currency": "USD",
+        "principal": "272500.00"
+      },
+      "sha256": "f254cc390afbbbbabc72d16b62fb84334892c8ee3b123787372b42e93b44e1b3"
+    },
+    {
+      "id": "loan-003-q1",
+      "title": "Loan review ACCT-003 2026-Q1",
+      "file": "loan-003-q1.png",
+      "fields": {
+        "account_id": "ACCT-003",
+        "period": "2026-Q1",
+        "currency": "USD",
+        "principal": "288750.00"
+      },
+      "sha256": "f4df82728fcba9acce117bb7e8f715b8e96a6d13f610393b4b4b7f477c952999"
+    },
+    {
+      "id": "loan-003-q2",
+      "title": "Loan review ACCT-003 2026-Q2",
+      "file": "loan-003-q2.png",
+      "fields": {
+        "account_id": "ACCT-003",
+        "period": "2026-Q2",
+        "currency": "USD",
+        "principal": "286250.00"
+      },
+      "sha256": "9c54228f115cb784090008933288e777b00eaa6b6cd1e18d980644597752ddaa"
+    },
+    {
+      "id": "loan-004-q1",
+      "title": "Loan review ACCT-004 2026-Q1",
+      "file": "loan-004-q1.png",
+      "fields": {
+        "account_id": "ACCT-004",
+        "period": "2026-Q1",
+        "currency": "USD",
+        "principal": "302500.00"
+      },
+      "sha256": "90ad9a0db43a2971fcc57bedc8669f8407e3a8bbcbeef9f978ebbde0d698789a"
+    },
+    {
+      "id": "loan-004-q2",
+      "title": "Loan review ACCT-004 2026-Q2",
+      "file": "loan-004-q2.png",
+      "fields": {
+        "account_id": "ACCT-004",
+        "period": "2026-Q2",
+        "currency": "USD",
+        "principal": "300000.00"
+      },
+      "sha256": "f8cc7ac8d86f2fdb9ad72d290f9dd754f0bcd044a65ba90484c5ab5353b30f52"
+    },
+    {
+      "id": "loan-005-q1",
+      "title": "Loan review ACCT-005 2026-Q1",
+      "file": "loan-005-q1.png",
+      "fields": {
+        "account_id": "ACCT-005",
+        "period": "2026-Q1",
+        "currency": "USD",
+        "principal": "316250.00"
+      },
+      "sha256": "a3f895e8f2d6030eb5dc13e86be400f7097a904c348d413a990b8e0c68282706"
+    },
+    {
+      "id": "loan-005-q2",
+      "title": "Loan review ACCT-005 2026-Q2",
+      "file": "loan-005-q2.png",
+      "fields": {
+        "account_id": "ACCT-005",
+        "period": "2026-Q2",
+        "currency": "USD",
+        "principal": "313750.00"
+      },
+      "sha256": "0d6133aef072339e4a79fe81ccf9fb962510daaf9d43f101dab014333cce35fa"
+    },
+    {
+      "id": "loan-006-q1",
+      "title": "Loan review ACCT-006 2026-Q1",
+      "file": "loan-006-q1.png",
+      "fields": {
+        "account_id": "ACCT-006",
+        "period": "2026-Q1",
+        "currency": "USD",
+        "principal": "330000.00"
+      },
+      "sha256": "395559fb8cd6059a3cd1c79d71b8bbae2e58a263c49e49ec006568e5035f5454"
+    },
+    {
+      "id": "loan-006-q2",
+      "title": "Loan review ACCT-006 2026-Q2",
+      "file": "loan-006-q2.png",
+      "fields": {
+        "account_id": "ACCT-006",
+        "period": "2026-Q2",
+        "currency": "USD",
+        "principal": "327500.00"
+      },
+      "sha256": "322f0e35824aba1bb38a3719b25a0fcaa016264af3f9404e3c2f44907e2b1507"
+    },
+    {
+      "id": "loan-007-q1",
+      "title": "Loan review ACCT-007 2026-Q1",
+      "file": "loan-007-q1.png",
+      "fields": {
+        "account_id": "ACCT-007",
+        "period": "2026-Q1",
+        "currency": "USD",
+        "principal": "343750.00"
+      },
+      "sha256": "c58a1e34f6657fb2bcde50d7b7967a1ffcd8e16cd7f8fae97c7234d16e6ffa0d"
+    },
+    {
+      "id": "loan-007-q2",
+      "title": "Loan review ACCT-007 2026-Q2",
+      "file": "loan-007-q2.png",
+      "fields": {
+        "account_id": "ACCT-007",
+        "period": "2026-Q2",
+        "currency": "USD",
+        "principal": "341250.00"
+      },
+      "sha256": "dc0afa9ddcf99b48801f34545ecfeebda6cb40cc208f6ee556a661db483b98ef"
+    },
+    {
+      "id": "loan-008-q1",
+      "title": "Loan review ACCT-008 2026-Q1",
+      "file": "loan-008-q1.png",
+      "fields": {
+        "account_id": "ACCT-008",
+        "period": "2026-Q1",
+        "currency": "USD",
+        "principal": "357500.00"
+      },
+      "sha256": "0e762d870b5e7076afd3e5862edb3eab48e053bccd3959565cab706002480177"
+    },
+    {
+      "id": "loan-008-q2",
+      "title": "Loan review ACCT-008 2026-Q2",
+      "file": "loan-008-q2.png",
+      "fields": {
+        "account_id": "ACCT-008",
+        "period": "2026-Q2",
+        "currency": "USD",
+        "principal": "355000.00"
+      },
+      "sha256": "b3e111ce6a50717ead5117ad7f5d3044f2d5c8bb1d4cc812e8fd641779fde50d"
+    },
+    {
+      "id": "loan-009-q1",
+      "title": "Loan review ACCT-009 2026-Q1",
+      "file": "loan-009-q1.png",
+      "fields": {
+        "account_id": "ACCT-009",
+        "period": "2026-Q1",
+        "currency": "USD",
+        "principal": "371250.00"
+      },
+      "sha256": "cc8a1c6e4d6c39b5da7b452f58144b6669475323611c8fc4482d0ab94c1d21f7"
+    },
+    {
+      "id": "loan-009-q2",
+      "title": "Loan review ACCT-009 2026-Q2",
+      "file": "loan-009-q2.png",
+      "fields": {
+        "account_id": "ACCT-009",
+        "period": "2026-Q2",
+        "currency": "USD",
+        "principal": "368750.00"
+      },
+      "sha256": "a89285926a090fc98ccc99be0131ea5ea69add85d63153c03861ff2f8916cbe9"
+    },
+    {
+      "id": "loan-010-q1",
+      "title": "Loan review ACCT-010 2026-Q1",
+      "file": "loan-010-q1.png",
+      "fields": {
+        "account_id": "ACCT-010",
+        "period": "2026-Q1",
+        "currency": "USD",
+        "principal": "385000.00"
+      },
+      "sha256": "b620056a1c9a2c03c2ad32445c3d078a117d7cf05b5eb4ded6973457d021201f"
+    },
+    {
+      "id": "loan-010-q2",
+      "title": "Loan review ACCT-010 2026-Q2",
+      "file": "loan-010-q2.png",
+      "fields": {
+        "account_id": "ACCT-010",
+        "period": "2026-Q2",
+        "currency": "USD",
+        "principal": "382500.00"
+      },
+      "sha256": "78c2876941e317ffb5193d7ca23e32580a7a33cee8e72cc09ad63c2b4c7f38d0"
+    },
+    {
+      "id": "loan-011-q1",
+      "title": "Loan review ACCT-011 2026-Q1",
+      "file": "loan-011-q1.png",
+      "fields": {
+        "account_id": "ACCT-011",
+        "period": "2026-Q1",
+        "currency": "USD",
+        "principal": "398750.00"
+      },
+      "sha256": "1dbac0e0fad52352158608fb9d40a8ba6249e1b0508f85356ec51a3f088b6ecc"
+    },
+    {
+      "id": "loan-011-q2",
+      "title": "Loan review ACCT-011 2026-Q2",
+      "file": "loan-011-q2.png",
+      "fields": {
+        "account_id": "ACCT-011",
+        "period": "2026-Q2",
+        "currency": "USD",
+        "principal": "396250.00"
+      },
+      "sha256": "ea8a4683ca921bb63a5d331064b1c713c347e03f908a7f32209b46d91b0d6125"
+    },
+    {
+      "id": "loan-012-q1",
+      "title": "Loan review ACCT-012 2026-Q1",
+      "file": "loan-012-q1.png",
+      "fields": {
+        "account_id": "ACCT-012",
+        "period": "2026-Q1",
+        "currency": "USD",
+        "principal": "412500.00"
+      },
+      "sha256": "f4447f5d230fd23f8e88ccb3a6a93e6d95951ec07265b715d5807cbf7ea17348"
+    },
+    {
+      "id": "loan-012-q2",
+      "title": "Loan review ACCT-012 2026-Q2",
+      "file": "loan-012-q2.png",
+      "fields": {
+        "account_id": "ACCT-012",
+        "period": "2026-Q2",
+        "currency": "USD",
+        "principal": "410000.00"
+      },
+      "sha256": "12176fde7b80e64f25ef293eb68a3399d46fe8cd49cd876fcfc7a47c6a3eca14"
+    }
+  ],
+  "questions": [
+    {
+      "question": "What is the outstanding principal for ACCT-001 in 2026-Q1?",
+      "doc_id": "loan-001-q1",
+      "expected_text": "261250.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-001 in 2026-Q1?",
+      "doc_id": "loan-001-q1",
+      "expected_text": "1.15"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-001 in 2026-Q2?",
+      "doc_id": "loan-001-q2",
+      "expected_text": "258750.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-001 in 2026-Q2?",
+      "doc_id": "loan-001-q2",
+      "expected_text": "1.15"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-002 in 2026-Q1?",
+      "doc_id": "loan-002-q1",
+      "expected_text": "275000.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-002 in 2026-Q1?",
+      "doc_id": "loan-002-q1",
+      "expected_text": "1.20"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-002 in 2026-Q2?",
+      "doc_id": "loan-002-q2",
+      "expected_text": "272500.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-002 in 2026-Q2?",
+      "doc_id": "loan-002-q2",
+      "expected_text": "1.20"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-003 in 2026-Q1?",
+      "doc_id": "loan-003-q1",
+      "expected_text": "288750.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-003 in 2026-Q1?",
+      "doc_id": "loan-003-q1",
+      "expected_text": "1.25"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-003 in 2026-Q2?",
+      "doc_id": "loan-003-q2",
+      "expected_text": "286250.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-003 in 2026-Q2?",
+      "doc_id": "loan-003-q2",
+      "expected_text": "1.25"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-004 in 2026-Q1?",
+      "doc_id": "loan-004-q1",
+      "expected_text": "302500.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-004 in 2026-Q1?",
+      "doc_id": "loan-004-q1",
+      "expected_text": "1.10"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-004 in 2026-Q2?",
+      "doc_id": "loan-004-q2",
+      "expected_text": "300000.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-004 in 2026-Q2?",
+      "doc_id": "loan-004-q2",
+      "expected_text": "1.10"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-005 in 2026-Q1?",
+      "doc_id": "loan-005-q1",
+      "expected_text": "316250.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-005 in 2026-Q1?",
+      "doc_id": "loan-005-q1",
+      "expected_text": "1.15"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-005 in 2026-Q2?",
+      "doc_id": "loan-005-q2",
+      "expected_text": "313750.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-005 in 2026-Q2?",
+      "doc_id": "loan-005-q2",
+      "expected_text": "1.15"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-006 in 2026-Q1?",
+      "doc_id": "loan-006-q1",
+      "expected_text": "330000.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-006 in 2026-Q1?",
+      "doc_id": "loan-006-q1",
+      "expected_text": "1.20"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-006 in 2026-Q2?",
+      "doc_id": "loan-006-q2",
+      "expected_text": "327500.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-006 in 2026-Q2?",
+      "doc_id": "loan-006-q2",
+      "expected_text": "1.20"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-007 in 2026-Q1?",
+      "doc_id": "loan-007-q1",
+      "expected_text": "343750.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-007 in 2026-Q1?",
+      "doc_id": "loan-007-q1",
+      "expected_text": "1.25"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-007 in 2026-Q2?",
+      "doc_id": "loan-007-q2",
+      "expected_text": "341250.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-007 in 2026-Q2?",
+      "doc_id": "loan-007-q2",
+      "expected_text": "1.25"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-008 in 2026-Q1?",
+      "doc_id": "loan-008-q1",
+      "expected_text": "357500.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-008 in 2026-Q1?",
+      "doc_id": "loan-008-q1",
+      "expected_text": "1.10"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-008 in 2026-Q2?",
+      "doc_id": "loan-008-q2",
+      "expected_text": "355000.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-008 in 2026-Q2?",
+      "doc_id": "loan-008-q2",
+      "expected_text": "1.10"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-009 in 2026-Q1?",
+      "doc_id": "loan-009-q1",
+      "expected_text": "371250.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-009 in 2026-Q1?",
+      "doc_id": "loan-009-q1",
+      "expected_text": "1.15"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-009 in 2026-Q2?",
+      "doc_id": "loan-009-q2",
+      "expected_text": "368750.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-009 in 2026-Q2?",
+      "doc_id": "loan-009-q2",
+      "expected_text": "1.15"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-010 in 2026-Q1?",
+      "doc_id": "loan-010-q1",
+      "expected_text": "385000.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-010 in 2026-Q1?",
+      "doc_id": "loan-010-q1",
+      "expected_text": "1.20"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-010 in 2026-Q2?",
+      "doc_id": "loan-010-q2",
+      "expected_text": "382500.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-010 in 2026-Q2?",
+      "doc_id": "loan-010-q2",
+      "expected_text": "1.20"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-011 in 2026-Q1?",
+      "doc_id": "loan-011-q1",
+      "expected_text": "398750.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-011 in 2026-Q1?",
+      "doc_id": "loan-011-q1",
+      "expected_text": "1.25"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-011 in 2026-Q2?",
+      "doc_id": "loan-011-q2",
+      "expected_text": "396250.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-011 in 2026-Q2?",
+      "doc_id": "loan-011-q2",
+      "expected_text": "1.25"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-012 in 2026-Q1?",
+      "doc_id": "loan-012-q1",
+      "expected_text": "412500.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-012 in 2026-Q1?",
+      "doc_id": "loan-012-q1",
+      "expected_text": "1.10"
+    },
+    {
+      "question": "What is the outstanding principal for ACCT-012 in 2026-Q2?",
+      "doc_id": "loan-012-q2",
+      "expected_text": "410000.00"
+    },
+    {
+      "question": "What is the minimum coverage ratio for ACCT-012 in 2026-Q2?",
+      "doc_id": "loan-012-q2",
+      "expected_text": "1.10"
+    }
+  ],
+  "expected_issues": {
+    "invalid_record": 5,
+    "document_mismatch": 1
+  },
+  "expected_review_doc": "loan-001-q1",
+  "benchmark_limit": "Clean rendered scans, repeated template, explicit account/period filters. Not a general OCR or RAG benchmark."
+}

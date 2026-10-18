@@ -1,0 +1,9 @@
+fastapi==0.143.2
+uvicorn==0.54.0
+httpx==0.28.1
+pytest==9.1.1
+scikit-learn==1.9.1
+boto3==1.43.114
+pillow==12.3.0
+pypdf==6.20.1
+python-multipart==0.0.32

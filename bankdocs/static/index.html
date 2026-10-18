@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Banking Document Workbench</title><link rel="stylesheet" href="/static/style.css"><script src="/static/app.js" defer></script></head>
+<body><main>
+<header><p class="eyebrow">DATA PRODUCTS / DOCUMENT INTELLIGENCE</p><h1>Banking Document Workbench</h1><p>Inspect loan reports, reconcile figures, and retrieve traceable evidence.</p><span class="badge">Synthetic portfolio demonstration</span></header>
+<section class="connection"><label>API key <input id="key" type="password" autocomplete="off" value="synthetic-local-demo"></label><button id="refresh">Load workspace</button><p id="mode"></p></section>
+<div id="stats" class="stats" aria-live="polite"></div>
+<section><h2>Find evidence</h2><p>Include an account and reporting period for precise retrieval. Results are source excerpts, not lending advice.</p><form id="query-form"><label for="question">Question</label><input id="question" value="What is the outstanding principal for ACCT-002 in 2026-Q2?" maxlength="500" required><button>Retrieve evidence</button></form><div id="answer" aria-live="polite"></div></section>
+<section><h2>Review exceptions</h2><p>Conflicting document and record values block evidence responses until reviewed.</p><div class="table-wrap"><table><thead><tr><th>Row</th><th>Document</th><th>Check</th><th>Detail</th></tr></thead><tbody id="issues"></tbody></table></div></section>
+<details><summary>Upload a document</summary><p>PNG/JPEG or text PDF, maximum 5 MB. Local OCR uses Tesseract.</p><form id="upload-form"><label>Document ID<input id="doc-id" pattern="[A-Za-z0-9_-]{1,64}" required></label><label>Title (include account and period)<input id="doc-title" maxlength="160" required></label><label>File<input id="doc-file" type="file" accept="image/png,image/jpeg,application/pdf" required></label><button>Ingest document</button></form><pre id="upload-result"></pre></details>
+<footer>Local prototype. Cloud connectors and ECS configuration are provided separately. Source hashes and page references support traceability; they do not establish document truth. <a href="/docs">API documentation</a></footer>
+</main></body></html>

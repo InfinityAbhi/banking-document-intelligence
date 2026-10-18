@@ -1,0 +1,647 @@
+{
+  "generated_at_utc": "2026-10-15T19:13:57.260395+00:00",
+  "environment": {
+    "python": "3.12.14",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "tesseract": "tesseract 5.5.3"
+  },
+  "dataset_sha256": "1361053dd0360bb0126e274013cbe3c357f039d69e19ec3cbf656b8331de448e",
+  "scope": {
+    "synthetic_documents": 24,
+    "structured_rows": 29,
+    "queries": 48
+  },
+  "ocr": {
+    "matched_fields": 96,
+    "total_fields": 96,
+    "exact_match_rate": 1.0,
+    "median_ingestion_ms": 510.18,
+    "documents": [
+      {
+        "doc_id": "loan-001-q1",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "8d5ea9d70c0531ac2a8bf74f561b3c0db8403971fdb5af6611c57c03742114ec"
+      },
+      {
+        "doc_id": "loan-001-q2",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "511b368105068a4e404435a224e596b353b357bc274f3af8f1630d4427c9a604"
+      },
+      {
+        "doc_id": "loan-002-q1",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "8a927bae591028062e33061da8beb1d79bd6086bc37340d4050a50964cc03176"
+      },
+      {
+        "doc_id": "loan-002-q2",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "f254cc390afbbbbabc72d16b62fb84334892c8ee3b123787372b42e93b44e1b3"
+      },
+      {
+        "doc_id": "loan-003-q1",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "f4df82728fcba9acce117bb7e8f715b8e96a6d13f610393b4b4b7f477c952999"
+      },
+      {
+        "doc_id": "loan-003-q2",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "9c54228f115cb784090008933288e777b00eaa6b6cd1e18d980644597752ddaa"
+      },
+      {
+        "doc_id": "loan-004-q1",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "90ad9a0db43a2971fcc57bedc8669f8407e3a8bbcbeef9f978ebbde0d698789a"
+      },
+      {
+        "doc_id": "loan-004-q2",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "f8cc7ac8d86f2fdb9ad72d290f9dd754f0bcd044a65ba90484c5ab5353b30f52"
+      },
+      {
+        "doc_id": "loan-005-q1",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "a3f895e8f2d6030eb5dc13e86be400f7097a904c348d413a990b8e0c68282706"
+      },
+      {
+        "doc_id": "loan-005-q2",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "0d6133aef072339e4a79fe81ccf9fb962510daaf9d43f101dab014333cce35fa"
+      },
+      {
+        "doc_id": "loan-006-q1",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "395559fb8cd6059a3cd1c79d71b8bbae2e58a263c49e49ec006568e5035f5454"
+      },
+      {
+        "doc_id": "loan-006-q2",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "322f0e35824aba1bb38a3719b25a0fcaa016264af3f9404e3c2f44907e2b1507"
+      },
+      {
+        "doc_id": "loan-007-q1",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "c58a1e34f6657fb2bcde50d7b7967a1ffcd8e16cd7f8fae97c7234d16e6ffa0d"
+      },
+      {
+        "doc_id": "loan-007-q2",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "dc0afa9ddcf99b48801f34545ecfeebda6cb40cc208f6ee556a661db483b98ef"
+      },
+      {
+        "doc_id": "loan-008-q1",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "0e762d870b5e7076afd3e5862edb3eab48e053bccd3959565cab706002480177"
+      },
+      {
+        "doc_id": "loan-008-q2",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "b3e111ce6a50717ead5117ad7f5d3044f2d5c8bb1d4cc812e8fd641779fde50d"
+      },
+      {
+        "doc_id": "loan-009-q1",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "cc8a1c6e4d6c39b5da7b452f58144b6669475323611c8fc4482d0ab94c1d21f7"
+      },
+      {
+        "doc_id": "loan-009-q2",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "a89285926a090fc98ccc99be0131ea5ea69add85d63153c03861ff2f8916cbe9"
+      },
+      {
+        "doc_id": "loan-010-q1",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "b620056a1c9a2c03c2ad32445c3d078a117d7cf05b5eb4ded6973457d021201f"
+      },
+      {
+        "doc_id": "loan-010-q2",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "78c2876941e317ffb5193d7ca23e32580a7a33cee8e72cc09ad63c2b4c7f38d0"
+      },
+      {
+        "doc_id": "loan-011-q1",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "1dbac0e0fad52352158608fb9d40a8ba6249e1b0508f85356ec51a3f088b6ecc"
+      },
+      {
+        "doc_id": "loan-011-q2",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "ea8a4683ca921bb63a5d331064b1c713c347e03f908a7f32209b46d91b0d6125"
+      },
+      {
+        "doc_id": "loan-012-q1",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "f4447f5d230fd23f8e88ccb3a6a93e6d95951ec07265b715d5807cbf7ea17348"
+      },
+      {
+        "doc_id": "loan-012-q2",
+        "fields": {
+          "account_id": true,
+          "period": true,
+          "currency": true,
+          "principal": true
+        },
+        "source_sha256": "12176fde7b80e64f25ef293eb68a3399d46fe8cd49cd876fcfc7a47c6a3eca14"
+      }
+    ]
+  },
+  "validation": {
+    "summary": {
+      "rows": 29,
+      "accepted": 24,
+      "rejected": 5,
+      "needs_review": 1,
+      "batch": "521c782c3b85e1c4a847352252ae4e858d8011682b256397c7883621ec15861f",
+      "deduplicated": false
+    },
+    "observed_issues": {
+      "document_mismatch": 1,
+      "invalid_record": 5
+    },
+    "all_seeded_issues_detected": true
+  },
+  "retrieval": {
+    "correct_document_at_1": 48,
+    "answer_value_present_at_3": 48,
+    "total_queries": 48,
+    "median_ms": 2.5,
+    "method": "TF-IDF with explicit account/period metadata filters",
+    "results": [
+      {
+        "question": "What is the outstanding principal for ACCT-001 in 2026-Q1?",
+        "doc_id": "loan-001-q1",
+        "expected_text": "261250.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-001 in 2026-Q1?",
+        "doc_id": "loan-001-q1",
+        "expected_text": "1.15",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-001 in 2026-Q2?",
+        "doc_id": "loan-001-q2",
+        "expected_text": "258750.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-001 in 2026-Q2?",
+        "doc_id": "loan-001-q2",
+        "expected_text": "1.15",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-002 in 2026-Q1?",
+        "doc_id": "loan-002-q1",
+        "expected_text": "275000.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-002 in 2026-Q1?",
+        "doc_id": "loan-002-q1",
+        "expected_text": "1.20",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-002 in 2026-Q2?",
+        "doc_id": "loan-002-q2",
+        "expected_text": "272500.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-002 in 2026-Q2?",
+        "doc_id": "loan-002-q2",
+        "expected_text": "1.20",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-003 in 2026-Q1?",
+        "doc_id": "loan-003-q1",
+        "expected_text": "288750.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-003 in 2026-Q1?",
+        "doc_id": "loan-003-q1",
+        "expected_text": "1.25",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-003 in 2026-Q2?",
+        "doc_id": "loan-003-q2",
+        "expected_text": "286250.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-003 in 2026-Q2?",
+        "doc_id": "loan-003-q2",
+        "expected_text": "1.25",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-004 in 2026-Q1?",
+        "doc_id": "loan-004-q1",
+        "expected_text": "302500.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-004 in 2026-Q1?",
+        "doc_id": "loan-004-q1",
+        "expected_text": "1.10",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-004 in 2026-Q2?",
+        "doc_id": "loan-004-q2",
+        "expected_text": "300000.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-004 in 2026-Q2?",
+        "doc_id": "loan-004-q2",
+        "expected_text": "1.10",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-005 in 2026-Q1?",
+        "doc_id": "loan-005-q1",
+        "expected_text": "316250.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-005 in 2026-Q1?",
+        "doc_id": "loan-005-q1",
+        "expected_text": "1.15",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-005 in 2026-Q2?",
+        "doc_id": "loan-005-q2",
+        "expected_text": "313750.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-005 in 2026-Q2?",
+        "doc_id": "loan-005-q2",
+        "expected_text": "1.15",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-006 in 2026-Q1?",
+        "doc_id": "loan-006-q1",
+        "expected_text": "330000.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-006 in 2026-Q1?",
+        "doc_id": "loan-006-q1",
+        "expected_text": "1.20",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-006 in 2026-Q2?",
+        "doc_id": "loan-006-q2",
+        "expected_text": "327500.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-006 in 2026-Q2?",
+        "doc_id": "loan-006-q2",
+        "expected_text": "1.20",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-007 in 2026-Q1?",
+        "doc_id": "loan-007-q1",
+        "expected_text": "343750.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-007 in 2026-Q1?",
+        "doc_id": "loan-007-q1",
+        "expected_text": "1.25",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-007 in 2026-Q2?",
+        "doc_id": "loan-007-q2",
+        "expected_text": "341250.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-007 in 2026-Q2?",
+        "doc_id": "loan-007-q2",
+        "expected_text": "1.25",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-008 in 2026-Q1?",
+        "doc_id": "loan-008-q1",
+        "expected_text": "357500.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-008 in 2026-Q1?",
+        "doc_id": "loan-008-q1",
+        "expected_text": "1.10",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-008 in 2026-Q2?",
+        "doc_id": "loan-008-q2",
+        "expected_text": "355000.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-008 in 2026-Q2?",
+        "doc_id": "loan-008-q2",
+        "expected_text": "1.10",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-009 in 2026-Q1?",
+        "doc_id": "loan-009-q1",
+        "expected_text": "371250.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-009 in 2026-Q1?",
+        "doc_id": "loan-009-q1",
+        "expected_text": "1.15",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-009 in 2026-Q2?",
+        "doc_id": "loan-009-q2",
+        "expected_text": "368750.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-009 in 2026-Q2?",
+        "doc_id": "loan-009-q2",
+        "expected_text": "1.15",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-010 in 2026-Q1?",
+        "doc_id": "loan-010-q1",
+        "expected_text": "385000.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-010 in 2026-Q1?",
+        "doc_id": "loan-010-q1",
+        "expected_text": "1.20",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-010 in 2026-Q2?",
+        "doc_id": "loan-010-q2",
+        "expected_text": "382500.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-010 in 2026-Q2?",
+        "doc_id": "loan-010-q2",
+        "expected_text": "1.20",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-011 in 2026-Q1?",
+        "doc_id": "loan-011-q1",
+        "expected_text": "398750.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-011 in 2026-Q1?",
+        "doc_id": "loan-011-q1",
+        "expected_text": "1.25",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-011 in 2026-Q2?",
+        "doc_id": "loan-011-q2",
+        "expected_text": "396250.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-011 in 2026-Q2?",
+        "doc_id": "loan-011-q2",
+        "expected_text": "1.25",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-012 in 2026-Q1?",
+        "doc_id": "loan-012-q1",
+        "expected_text": "412500.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-012 in 2026-Q1?",
+        "doc_id": "loan-012-q1",
+        "expected_text": "1.10",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the outstanding principal for ACCT-012 in 2026-Q2?",
+        "doc_id": "loan-012-q2",
+        "expected_text": "410000.00",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      },
+      {
+        "question": "What is the minimum coverage ratio for ACCT-012 in 2026-Q2?",
+        "doc_id": "loan-012-q2",
+        "expected_text": "1.10",
+        "correct_document_at_1": true,
+        "answer_value_present_at_3": true
+      }
+    ]
+  },
+  "controls": {
+    "mismatch_blocks_answer": true,
+    "unknown_account_returns_no_evidence": true,
+    "valid_answer_includes_source_hash_and_page": true
+  },
+  "database_stats": {
+    "documents": 24,
+    "chunks": 48,
+    "records": 24,
+    "issues": 6,
+    "events": 25,
+    "reconciled_records": 23,
+    "corpus_version": "5e2ccc40bcb89cf331373f0862929e30d9b513a32673ca6cdca755531f99dfb9"
+  },
+  "cloud_execution": {
+    "textract": false,
+    "bedrock": false,
+    "snowflake_cortex": false,
+    "ecs_deployed": false
+  },
+  "limitations": [
+    "Clean rendered scans, repeated template, explicit account/period filters. Not a general OCR or RAG benchmark.",
+    "Local latency is not production throughput or a cloud SLA.",
+    "No LLM factuality or live cloud accuracy measured. TF-IDF is lexical retrieval, not semantic embeddings."
+  ]
+}

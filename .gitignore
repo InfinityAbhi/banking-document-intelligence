@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.runtime/
+.env
+*.pyc
+
+.env.*
+!.env.example
+*.pyo
+*.sqlite
+*.sqlite3
+*.db
+.DS_Store
+*.pem
+*.key
